@@ -69,4 +69,4 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Deployment link
 
-Link : 
+Link : <https://tier-based-f0huk39w6-adis-projects-8ba446b5.vercel.app>
