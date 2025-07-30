@@ -20,18 +20,53 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Brief Overview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. The landing page has SignIn and SignUp options using clerk.dev.
+2. Once registered user is given a free tier by default.
+3. `/events` and `/settings` are two routes where:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    - `/events` shows available events for the user.
+    - `/settings` shows options to upgrade tier.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Demo User Credentials
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Password: `testingfirstApp123` (for all the below demo emails)
 
+2. Emails:
+
+- <shaffertaneshia836+gentile@gmail.com> (Platinum)
+
+- <sksjhsmshsmsnbv+ivey@gmail.com> (gold)
+
+- <slsnvskshevvekeb+mccollum@gmail.com> (silver)
+
+- <b.enjieg.a.la.vtesan@gmail.com> (free)
+
+---
+
+## How to Use
+
+- For New Users:
+
+1. Sign Up: Create an account (defaults to Free tier)
+2. View Events: Go to /events to see available events
+3. Upgrade Tier: Visit /settings to change your membership tier (currently allowed for all and we can later have checks for upgrade)
+4. Access More Events: Higher tiers unlock more exclusive events
+
+- Tier Access Levels:
+
+1. Free: 2 events (Basic Workshop, Community Meetup)
+2. Silver: 4 events (Free + Advanced React, UI/UX Masterclass)
+3. Gold: 6 events (Silver + Bootcamp, Cloud Summit)
+4. Platinum: 8 events (All events including VIP Conference)
+
+---
+
+## Deployment link
+
+Link : 
